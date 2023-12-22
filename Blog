@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Blog</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        section {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 20px;
+        }
+
+        article {
+            width: 30%;
+            margin: 10px;
+            background-color: #fff;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        h2, p {
+            padding: 15px;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Your Blog</h1>
+    </header>
+
+    <section>
+        <article>
+            <h2>Atricle Title 1</h2>
+            <img src="image1.jpg" alt="Sample Image 1">
+            <input type="text" id="info" placeholder="Write text for image1">
+        </article>
+
+        <article>
+            <h2>Article Title 2</h2>
+            <img src="image2.jpg" alt="Sample Image 2">
+            <input type="text" id="info" placeholder="Write text for image2">
+        </article>
+
+        <article>
+            <h2>Article Title 3</h2>
+            <img src="image3.jpg" alt="Sample Image 3">
+            <input type="text" id="info" placeholder="Write text for image3">
+        </article>
+    </section>
+
+</body>
+</html>
